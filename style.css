@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellow;
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(90deg, #1e3c72, #2a5298);
+    }
+    50% {
+        background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    }
+    100% {
+        background: linear-gradient(90deg, #1e3c72, #2a5298);
+    }
+}
+
+#menu, #settingsMenu, #gameOverScreen {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    color: blue;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: red;
+}
+
+button {
+    font-family: 'Verdana', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
